@@ -1,0 +1,33 @@
+img {
+    height: 50vh;
+}
+
+button {
+    border: 3px black solid;
+    padding: 9px 18px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: crimson;
+}
+
+.loader {
+    border: 10px solid rgb(148, 104, 104);
+    border-top: 10px solid crimson;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
